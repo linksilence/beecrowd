@@ -1,5 +1,5 @@
 # beecrowd
-Cod for students undestand better
+//Cod for students undestand better
 #include <string.h> 
 #include <stdio.h>
 
