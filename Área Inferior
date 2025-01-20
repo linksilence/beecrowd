@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    double mat[12][12], soma=0;
+    int i,j;
+    char esc;
+    
+    scanf("%c", &esc);
+    for(i=0;i<12;i++)
+        {
+            for(j=0;j<12;j++)
+                {
+                    scanf("%lf", &mat[i][j]);
+                }
+        }
+        soma=0;
+        int aux=5,aux2=7;
+    for(i=7;i<=11;i++)
+        {
+            for(j=aux;j<aux2;j++)
+                {
+                    soma=soma+mat[i][j];
+                }
+                aux--;
+                aux2++;
+        }
+    if(esc=='M') printf("%.1lf\n",soma/30);
+    else printf("%.1lf\n",soma);
+    return 0;
+}
