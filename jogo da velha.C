@@ -1,7 +1,7 @@
-# beecrowd
-//Cod for students undestand better
 #include <string.h> 
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 
 void printM(char matriz[][3])
     {       int i,j;
@@ -46,8 +46,7 @@ int main()
 {
     char velha[3][3];
     int i,j,x,y, ganhador=0;
-    int cont=0,verifica();
-    void printM();
+    int cont=0;
     for(i=0;i<3;i++)
         {
             for(j=0;j<3;j++)
