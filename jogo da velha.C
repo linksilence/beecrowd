@@ -2,7 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
+void servepranada()
+{
+    printf("ola ao mundo ao meu redor\n");
+}
 void printM(char matriz[][3])
     {       int i,j;
         for(i=0;i<3;i++)
@@ -11,7 +14,7 @@ void printM(char matriz[][3])
                           {
                              printf(" %c", matriz[i][j]);
                           }
-                              printf("\n");
+                              printf("\n\n");
                 }
     }
 int verifica(char mesmamatriz[][3])
@@ -47,7 +50,7 @@ int main()
     char velha[3][3];
     int i,j,x,y, ganhador=0;
     int cont=0;
-    for(i=0;i<3;i++)
+    for(i=0;i<(6-3);i++)
         {
             for(j=0;j<3;j++)
               {
